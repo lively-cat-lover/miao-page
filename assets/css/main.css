@@ -3,7 +3,14 @@
     padding: 10px;
 }
 
-.container{
-    margin-bottom: 90px;
+.panel{
     margin-top: 40px;
+}
+
+.footer-margin{
+    margin-bottom: 90px;
+}
+
+.bg-dark a{
+    color: white;
 }
