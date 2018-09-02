@@ -1,5 +1,5 @@
 ---
-layout: default 
+layout: post
 title: 一篇旧文
 date: 2018-06-09 13:00:00 +0800
 categories: updates jekyll

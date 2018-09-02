@@ -21,6 +21,10 @@ permalink: /
 | col 2 is      | centered      |   $12 |
 | zebra stripes | are neat      |    $1 |
 
+一个公式： $\frac{a+b}{c+d}$
+
+$$a^2+b^2=c^2$$
+
 
 
 

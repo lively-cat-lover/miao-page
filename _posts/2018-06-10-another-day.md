@@ -1,5 +1,5 @@
 ---
-layout: default 
+layout: post
 title: 另一天
 date: 2018-06-10 13:00:00 +0800
 categories: updates jekyll

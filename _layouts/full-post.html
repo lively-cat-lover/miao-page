@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+{{content}}
+
+{% for post in site.posts %}
+<div class="card">
+    <a data-toggle="collapse" href="#post{{forloop.index}}"><h5>{{post.title}} {{post.date | date: "%B, %d, %Y"}}</h5></a>
+    <div class="collapse" id="post{{forloop.index}}">
+            <p>{{post.content | truncatewords: 150 }} <a href="{{site.baseurl}}{{post.url}}">阅读全文</a></p>
+    </div>
+     
+</div>
+{% endfor %}
